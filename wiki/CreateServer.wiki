@@ -1,4 +1,3 @@
-#summary One-sentence summary of this page.
 #labels Phase-Implementation,Featured,Phase-Deploy
 
   在当今网络应用中，各种开源服务器可谓遍地开花。Web服务器如 Apache、AOL－Server、Lighttpd等；数据库服务器如：Mysql、PostgreSQL；MTA服务如Postfix、Sendmail、Qmail等；HTTP代理服务器有Squid、Oops、Ngnix等。每一类服务器的设计都比较复杂且相关性较强，它们所用的服务器框架通用性不够，很难提炼出来，形成相对独立的服务器框架，供程序员快速开发自己的项目。在我们习惯了AVA、.NET、PHP等快速开发带给我们的快乐时，却逐渐地远离的程序设计的本质，仅能是知其然面不知所以然。好的开发框架及开发工具固然大大提高了软件生产率，但却容易使程序员浮于表面，无法深入，当需要设计开发更加高效、安全的服务器程序时，令很多人一愁莫展。
