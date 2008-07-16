@@ -1,10 +1,9 @@
 #labels Phase-Implementation,Featured,Phase-Deploy
-
   在当今网络应用中，各种开源服务器可谓遍地开花。Web服务器如 Apache、AOL－Server、Lighttpd等；数据库服务器如：Mysql、PostgreSQL；MTA服务如Postfix、Sendmail、Qmail等；HTTP代理服务器有Squid、Oops、Ngnix等。每一类服务器的设计都比较复杂且相关性较强，它们所用的服务器框架通用性不够，很难提炼出来，形成相对独立的服务器框架，供程序员快速开发自己的项目。在我们习惯了AVA、.NET、PHP等快速开发带给我们的快乐时，却逐渐地远离的程序设计的本质，仅能是知其然面不知所以然。好的开发框架及开发工具固然大大提高了软件生产率，但却容易使程序员浮于表面，无法深入，当需要设计开发更加高效、安全的服务器程序时，令很多人一愁莫展。
 
 = Introduction =
 
-　　本文讲述了以Postfix（http://www.postfix.org/）的服务器框架为基础的半驻留进程池服务器的设计模式，经过本人整理，
+　　本文讲述了以Postfix http://www.postfix.org/ 的服务器框架为基础的半驻留进程池服务器的设计模式，经过本人整理，
 将其纳入ACL库中，做为ACL基础库中进程池服务器框架部分的核心。如果你非常熟悉Postfix的框架设计，那么本节的内容对于你
 来说非常容易接受，当然，如果你未曾接触过Postfix，也没关系，通过本文，你可以非常方便快捷地创建基于高级服务器框架之
 上的应用服务器程序：简单、高效、安全、可扩展性好等。
